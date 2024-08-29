@@ -11,4 +11,4 @@ def diff_series(limit):
     result = sum_square(limit) - square_sum(limit)
     return result
 
-print(diff_series(100)) # 25164150
+print(diff_series(100)) # 25164150 
