@@ -1,9 +1,9 @@
 # ProjectEuler
 ![logo_default](./banner.png)
 
-Code for solving Project Euler problems in Python.
+Code for solving Project Euler problems in Python.This only includes the first 100 problems. (Still in progress)
 
-Solution is written at the end of the code.
+The solution is written at the end of the code.
 
 Python is tested in version 3.12.4
 
