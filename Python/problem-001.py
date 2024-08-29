@@ -4,7 +4,7 @@ def sum_multi(num):
 	numbers = []
 	
 	for i in range(1, num):
-		if (i % 3 == 0) or (i % 5 == 0):
+		if (i % 3 == 0) or (i % 5 == 0):  # Checks multiplication of 3 or 5
 			numbers.append(i)
 		else:
 			pass
