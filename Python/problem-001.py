@@ -11,4 +11,4 @@ def sum_multi(num):
 	print(sum(numbers))
 
 	
-sum_multi(1000) # 2331168
+sum_multi(1000) # 233168
