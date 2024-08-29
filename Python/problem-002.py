@@ -7,7 +7,7 @@ def fibo_sum(limit):
 	
 	while limit >= total:
 		total += fibo[-2]
-		fibo.append(total)  # Create Fibonacci sequence
+		fibo.append(total)  # Create fibonacci sequence
 	
 	for i in range(0,len(fibo)):
 		if fibo[i] % 2 == 0:      # Check for even values
