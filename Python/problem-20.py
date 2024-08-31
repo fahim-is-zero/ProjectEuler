@@ -1,3 +1,5 @@
+# Find the sum of the digits in the number 100!
+
 import math
 
 def fac_digit_sum(num):
@@ -9,4 +11,4 @@ def fac_digit_sum(num):
 
     return sum(digit)
 
-print(fac_digit_sum(100))
+print(fac_digit_sum(100)) # 648
