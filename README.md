@@ -1,7 +1,7 @@
 # ProjectEuler
 ![logo_default](./banner.png)
 
-Code for solving Project Euler problems in Python and JavaScript.This only includes the first 100 problems. (Still in progress)
+Code for solving Project Euler problems in Python.This only includes the first 100 problems. (Still in progress)
 
 The solution is written at the end of the code.
 
