@@ -1,7 +1,7 @@
-# ProjectEuler
+# ProjectEulerSolutions
 ![logo_default](./banner.png)
 
-Code for solving Project Euler problems in Python.This only includes the first 100 problems. (Still in progress)
+Code for solving Project Euler problems in Python.This only includes a handful of problems.
 
 The solution is written at the end of the code.
 
