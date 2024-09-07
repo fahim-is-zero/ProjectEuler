@@ -1,9 +1,14 @@
+# Which starting number, under one million, produces the longest chain? (Longest Collatz Sequence)
+
+# issue : slow, takes 10+ sec
+
+
 def collatz_chain_count(num):
 	n = num
 	counter = 1
 	while n > 1:
 		if n % 2 == 0:
-			n //= 2
+			n //= 2   # same as n /= 2 but since n is odd, so n //= 2 is same as n /= 2 (n//=2 is faster)
 			counter += 1
 		else:
 			n = 3 * n + 1
@@ -21,4 +26,4 @@ def longest_collatz(limit):
 			num = i
 	return f"{num} has the longest chain and it's {longest_chain} terms"
 
-print(longest_collatz(1000000))
+print(longest_collatz(1000000))  # 837799
