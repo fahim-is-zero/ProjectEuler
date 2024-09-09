@@ -1,14 +1,17 @@
-rom math import floor, sqrt
+# What is the 1001st prime number?
 
 
-def is_prime(n):
+from math import floor, sqrt
+
+
+def is_prime(n):  # explaination is on project euler website
     if n == 1:
         return False
-    elif n < 4:  
+    elif n < 4:  # 2 and 3
         return True
     elif n % 2 == 0:
         return False
-    elif n < 9: 
+    elif n < 9:  # already excluded 4,6,8
         return True
     elif n % 3 == 0:
         return False
@@ -23,8 +26,8 @@ def is_prime(n):
             f = f + 6
         return True
 
-def n_prime(n_th):
-    count = 1 
+def n_prime(n_th):  # explaination is on project euler website
+    count = 1  # we know that 2 is prime
     num = 1
     while count != n_th:
         num += 2
@@ -34,4 +37,4 @@ def n_prime(n_th):
 
 
 
-print(n_prime(10001))
+print(n_prime(10001))  # 104743
