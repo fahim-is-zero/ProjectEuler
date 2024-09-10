@@ -16,7 +16,7 @@ def is_prime(n):  # explaination is on project euler website
     elif n % 3 == 0:
         return False
     else:
-        r = floor(sqrt(n))
+        r = floor(sqrt(n))  # explaination is on project euler website
         f = 5
         while f <= r:
             if n % f == 0:
@@ -30,7 +30,7 @@ def n_prime(n_th):  # explaination is on project euler website
     count = 1  # we know that 2 is prime
     num = 1
     while count != n_th:
-        num += 2
+        num += 2   # starts with 3 and checks only odd number
         if is_prime(num):
             count += 1
     return num
