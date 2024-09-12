@@ -1,3 +1,5 @@
+# Find the sum of all the primes below two million.
+
 def sum_prime(lim):
     prime = [2]
     total = 2
@@ -13,4 +15,5 @@ def sum_prime(lim):
             x += 2
     return total
 
-print(sum_prime(10))
+print(sum_prime(10)) # takes time (360s) # 142913828922
+
